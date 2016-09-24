@@ -24,25 +24,24 @@ body {
 
 #cougar {
   background: #FFD5AE;
-  padding: 30px;
+  padding: 20px;
 }
 
 #lion {
   background:#FFBD82;
-  padding: 30px;
+  padding: 20px;
 }
 
 #tiger {
   background:#B26219;
-  padding: 30px;
+  padding: 20px;
 }
 
 article {
-  background: #fff;
   color: #000;
-  width: 600px;
+  width: 100%;
   margin: auto;
-  padding: 10px 35px;
+  padding: 10px 30px;
   -webkit-box-sizing: border-box;
     moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -55,11 +54,9 @@ h2, section > p {
 h2 {
   margin: 0;
   padding: 20px;
+  float: left;
 }
 
-/* h1{
-  float:left;
-} */
 
 img {
   display:block;
@@ -71,21 +68,60 @@ footer {
   padding: 10px;
 }
 
+#cougar div{
+  float: left;
+  width: 50%;
+  margin-right: 2%;
+}
+
+#cougar {
+float: right;
+}
+
+#lion {
+  clear:both;
+}
+
+#lion div{
+  float: left;
+  width: 50%;
+  margin-right: 2%;
+}
+
+#lion {
+  float: right;
+}
+
+#tiger {
+  clear: both;
+}
+
+#tiger div {
+  float: left;
+  width: 50%;
+  margin-right: 2%;
+}
+
+#tiger {
+  float: right;
+}
+
+
 /* --- links and nav --- */
+
 
 a { color: #379CB2; }
 a:hover { color: #82E8FF; }
 
 nav {
   float: right;
+  padding: 1%;
 }
 
-#cougar {
-  clear: both; }
 
-  nav ul {
-    list-style: none;
-    margin-top: 0;
+nav ul {
+  list-style: none;
+  margin-top: 0;
   }
 
 nav li {
